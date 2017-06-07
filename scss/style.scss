@@ -330,19 +330,6 @@ main {
                 &:last-child {
                     margin-right: 0;
 
-                    &:after {
-                        content: "";
-                        display: block;
-                        width: 18px;
-                        height: 18px;
-                        margin-top: -18px;
-                        margin-left: 282px;
-                        background-position: -41px 57px;
-                        background-image: url('../img/controls.png');
-                        background-color: $red;
-                        border-radius: 50%;
-                    }
-
                     &:before {
                         content: "";
                         display: block;
@@ -350,7 +337,20 @@ main {
                         height: 18px;
                         margin-top: -28px;
                         margin-left: 259px;
-                        background-position: -4px -7px;
+                        background-position: -1px -18px;
+                        background-image: url('../img/controls.png');
+                        background-color: $red;
+                        border-radius: 50%;
+                    }
+
+                    &:after {
+                        content: "";
+                        display: block;
+                        width: 18px;
+                        height: 18px;
+                        margin-top: -18px;
+                        margin-left: 282px;
+			            background-position: -62px 54px;
                         background-image: url('../img/controls.png');
                         background-color: $red;
                         border-radius: 50%;
