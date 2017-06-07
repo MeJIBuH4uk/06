@@ -1,8 +1,9 @@
 h2 {
     font-size: 28px;
     font-style: italic;
-    margin-bottom: 40px;
-    margin-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    padding-top: 40px;
     font-weight: 100;
     color: $grey-5;
 
@@ -13,9 +14,12 @@ h2 {
 }
 
 h3 {
-    font-size: 20px;
-    margin-bottom: 20px;
-    font-weight: normal;
+    font-size: 20.2px;
+    text-transform: none;
+    margin-top: 30px;
+    margin-bottom: 22px;
+    font-weight: 100;
+    color: $grey-6_1;
 
         &, a {
             color: $blue;
@@ -35,6 +39,7 @@ h4 {
 p, body, html, * {
     font-size: 13px;
     color: $grey-7;
+    line-height: 140%;
 }
 
 a {
