@@ -2,8 +2,9 @@
 @import "compass/css3";
 @import "var";
 @import 'reset';
+@import 'main';
 
-<<<<<<< HEAD
+
 %animate {
     transition: all .3s ease;
 }
@@ -187,10 +188,4 @@ header {
             }
         }
     }
-=======
-.wr {
-    width: 1000px;
-    padding: 0;
-    margin: 0 auto;
->>>>>>> parent of 74fb973... header allmost done
 }
